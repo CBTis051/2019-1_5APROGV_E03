@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
 
         var json = JSON.stringify(objecto);
 
-        res.end (json);
+     res.end(json);
 
 }).listen(8081);
 console.log('Server running on part 8081');
