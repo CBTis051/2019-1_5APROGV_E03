@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
         mensaje :'Hola mundo node JS Repo GIT - Pereida Morones Jesus manuel\n'
         };
 
-        var json = JSON.stringify(objecto);
+        var json = JSON.stringify(objeto);
 
      res.end(json);
 
