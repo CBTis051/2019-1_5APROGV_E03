@@ -8,8 +8,7 @@ http.createServer(function (req, res) {
 
     var json=JSON.stringify(objeto);
 
-    res.end(JSON);
+    res.end(json);
 
-    res.end('Hola mundo Node JS Repo GIT - Camberos Hipolito Angel\n');
 }).listen(8081);
 console.log('Server running on port 8081');
